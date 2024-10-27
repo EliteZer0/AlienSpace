@@ -28,7 +28,7 @@
 
 <!-- 게시글 작성 -->
 <insert id="insertBoard" parameterType="Board" keyProperty="id" useGeneratedKeys="true">
-	INSERT into board (title,  writer, content)
+	INSERT into board (title, writer, content)
 	VALUES (#{title}, #{writer}, #{content})
 </insert>
 		
