@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS ailienspace;
-CREATE DATABASE ailienspace DEFAULT CHARACTER SET utf8mb4;
+DROP DATABASE IF EXISTS alienspace;
+CREATE DATABASE alienspace DEFAULT CHARACTER SET utf8mb4;
 
-USE ailienspace;
+USE alienspace;
 
 CREATE TABLE board (
 	id INT AUTO_INCREMENT,
@@ -30,7 +30,7 @@ INSERT INTO user
 VALUES ("genpuin", "1234", "김펭귄", true),
 ("girlfromhell", "1234", "지옥녀", true),
 ("hellojerry", "1234", "제리제리", false),
-("zepiya", "1234", "제피", false), -- 제피는 금쪽이로 지으려다가 말았음
+("zepiya", "1234", "제피", false),
 ("pengmom", "1234", "펭맘", false);
 
 commit;

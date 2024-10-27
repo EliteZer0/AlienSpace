@@ -8,11 +8,11 @@
 		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.aillien.space</groupId>
-	<artifactId>ailienspace-1</artifactId>
+	<groupId>com.allien.space</groupId>
+	<artifactId>alienspace</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ailienspace-1</name>
-	<description>board for aillienspace user</description>
+	<name>alienspace</name>
+	<description>board for alienspace user</description>
 	<url/>
 	<licenses>
 		<license/>
